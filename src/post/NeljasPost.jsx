@@ -8,8 +8,8 @@ function Post() {
         src="https://f7.pmo.ee/Lxxzoe9l97uIOFewywp0LOYJgOA=/1442x0/filters:format(webp)/nginx/o/2024/09/17/16362990t1h6502.jpg" alt="" />
     <div className="postInfo">
         <div className="postCats">
-            <span className="postCat">Maailm</span>
-            <span className="postCat">Majandus</span>
+            <Link to="/maailm"><span className="postCat">Maailm</span></Link>
+            <Link to="/majandus"><span className="postCat">Majandus</span></Link>
         </div>
         <Link to="/post4">
         <div className="postTitle">Boeingu töötajate streik süvendab lennukite puudust ja tõstab piletihindu</div>

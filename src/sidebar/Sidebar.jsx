@@ -1,4 +1,5 @@
 import "./sidebar.css"
+import { Link } from "react-router-dom"
 
 function Sidebar() {
   return (
@@ -11,14 +12,14 @@ function Sidebar() {
 — Leonardo da Vinci </p>
         </div>
         <div className="sidebarItem">
-          <span className="sidebarTitle">KATEGOORIAD</span>
+          <span className="sidebarTitle">RUBRIIGID</span>
           <ul className="sidebarList">
-            <li className="sidebarListItem">Eesti</li>
-            <li className="sidebarListItem">Maailm</li>
-            <li className="sidebarListItem">Majandus</li>
-            <li className="sidebarListItem">Õnnetused</li>
-            <li className="sidebarListItem">Sõda</li>
-            <li className="sidebarListItem">Tehnoloogia</li>
+            <Link to="/eesti"><li className="sidebarListItem">Eesti</li></Link>
+            <Link to="/maailm"><li className="sidebarListItem">Maailm</li></Link>
+            <Link to="/majandus"><li className="sidebarListItem">Majandus</li></Link>
+            <Link to="/onnetused"><li className="sidebarListItem">Õnnetused</li></Link>
+            <Link to="/soda"><li className="sidebarListItem">Sõda</li></Link>
+            <Link to ="/tehnoloogia"><li className="sidebarListItem">Tehnoloogia</li></Link>
           </ul>
         </div>
         <div className="sidebarItem">

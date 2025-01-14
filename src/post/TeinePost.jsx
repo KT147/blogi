@@ -8,8 +8,8 @@ function Post() {
         src="https://f11.pmo.ee/wlc702E2SJKMhiTjIU4RJDZSwqI=/1442x0/filters:format(webp)/nginx/o/2024/12/25/16562921t1h2964.jpg" alt="" />
     <div className="postInfo">
         <div className="postCats">
-            <span className="postCat">Maailm</span>
-            <span className="postCat">Õnnetused</span>
+            <Link to="/maailm"><span className="postCat">Maailm</span></Link>
+            <Link to="/onnetused"><span className="postCat">Õnnetused</span></Link>
         </div>
         <Link to="/post2">
         <div className="postTitle">American Airlines peatas tehnilise probleemi tõttu tunniks kõik oma väljuvad lennud </div>

@@ -1,6 +1,7 @@
 import Header from "../header/header"
 import Sidebar from "../sidebar/Sidebar"
 import "../post/post1.css"
+import { Link } from "react-router-dom"
 
 function Post1() {
   return (
@@ -12,8 +13,8 @@ function Post1() {
         src="https://f7.pmo.ee/Lxxzoe9l97uIOFewywp0LOYJgOA=/1442x0/filters:format(webp)/nginx/o/2024/09/17/16362990t1h6502.jpg" alt="" />
     <div className="postInfo">
         <div className="postCats">
-            <span className="postCat">Maailm</span>
-            <span className="postCat">Majandus</span>
+        <Link to="/maailm"><span className="postCat">Maailm</span></Link>
+        <Link to="/majandus"><span className="postCat">Majandus</span></Link>
         </div>
         <hr />
         <span className="postDate">8 tundi tagasi</span>

@@ -8,8 +8,8 @@ function Post() {
         src="https://f9.pmo.ee/n1DwGGTKKyu1hXd879V29ZwH-tQ=/1442x0/filters:format(webp)/nginx/o/2025/01/12/16592156t1h7f9f.jpg" alt="" />
     <div className="postInfo">
         <div className="postCats">
-            <span className="postCat">Maailm</span>
-            <span className="postCat">Majandus</span>
+            <Link to="/maailm"><span className="postCat">Maailm</span></Link>
+            <Link to="/majandus"><span className="postCat">Majandus</span></Link>
         </div>
         <Link to="/post1">
         <div className="postTitle">Kümne aasta järel algasid taas <br /> otselennud Rooma ja Tripoli vahel </div>

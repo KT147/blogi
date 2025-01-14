@@ -47,6 +47,7 @@
     width: 50%;
     margin-top: 15px;
     cursor: pointer;
+    color: black;
 }
 
 .sidebarSocial {
@@ -67,3 +68,4 @@
     height: 500px;
     width: 350px;
 }
+
