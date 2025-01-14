@@ -4,28 +4,30 @@ function Sidebar() {
   return (
     <div className="sidebar">
         <div className="sidebarItem">
-          <span className="sidebarTitle">ABOUT ME</span>
-          <img src="https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg" alt="" />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere aliquid impedit consectetur quos fugit ipsa </p>
+          <span className="sidebarTitle">MEIST</span>
+          <img className="sidebarPic" src="https://images.stockcake.com/public/d/a/0/da04411f-fa6f-43c4-8b52-de8a6c071137_large/sunset-flight-view-stockcake.jpg" alt="" />
+          <p>&quot;Kui kord oled maitsnud lendamise rõõmu, siis kõnnid sa maa peal igavesti, silmad taevasse suunatud, sest seal oled sa käinud ja sinna ihaldad sa alati tagasi minna.&quot;
+
+— Leonardo da Vinci </p>
         </div>
         <div className="sidebarItem">
-          <span className="sidebarTitle">CATEGORIES</span>
+          <span className="sidebarTitle">KATEGOORIAD</span>
           <ul className="sidebarList">
-            <li className="sidebarListItem">Life</li>
-            <li className="sidebarListItem">Music</li>
-            <li className="sidebarListItem">Style</li>
-            <li className="sidebarListItem">Sport</li>
-            <li className="sidebarListItem">Tech</li>
-            <li className="sidebarListItem">Cinema</li>
+            <li className="sidebarListItem">Eesti</li>
+            <li className="sidebarListItem">Maailm</li>
+            <li className="sidebarListItem">Majandus</li>
+            <li className="sidebarListItem">Õnnetused</li>
+            <li className="sidebarListItem">Sõda</li>
+            <li className="sidebarListItem">Tehnoloogia</li>
           </ul>
         </div>
         <div className="sidebarItem">
-          <span className="sidebarTitle">FOLLOW US</span>
+          <span className="sidebarTitle">JÄLGI MEID</span>
           <div className="sidebarSocial">
-          <i className="sidebarIcon fa-brands fa-square-facebook"></i>
-          <i className="sidebarIcon fa-brands fa-square-twitter"></i>
-          <i className="sidebarIcon fa-brands fa-square-pinterest"></i>
-          <i className="sidebarIcon fa-brands fa-square-instagram"></i>
+         <a href="https://www.facebook.com"><i className="sidebarIcon fa-brands fa-square-facebook"></i></a>
+          <a href="https://www.twitter.com"><i className="sidebarIcon fa-brands fa-square-twitter"></i></a>
+          <a href="https://www.pinterest.com"><i className="sidebarIcon fa-brands fa-square-pinterest"></i></a>
+          <a href="https://www.instagram.com"><i className="sidebarIcon fa-brands fa-square-instagram"></i></a>
           </div>
         </div>
         

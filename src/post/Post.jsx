@@ -1,22 +1,23 @@
 import "./post.css"
+import { Link } from "react-router-dom"
 
 function Post() {
   return (
     <div className="post">
         <img className="postImg"
-        src="https://images.saymedia-content.com/.image/t_share/MjAwMTUwMjI4Mzc1NDQ2NjM2/disadvantages-of-travelling-by-plane.jpg" alt="" />
+        src="https://f9.pmo.ee/n1DwGGTKKyu1hXd879V29ZwH-tQ=/1442x0/filters:format(webp)/nginx/o/2025/01/12/16592156t1h7f9f.jpg" alt="" />
     <div className="postInfo">
         <div className="postCats">
-            <span className="postCat">Music</span>
-            <span className="postCat">Life</span>
+            <span className="postCat">Maailm</span>
+            <span className="postCat">Majandus</span>
         </div>
-        <span className="postTitle">Lorem ipsum dolor sit amet </span>
+        <Link to="/post1">
+        <div className="postTitle">Kümne aasta järel algasid taas <br /> otselennud Rooma ja Tripoli vahel </div>
+        </Link>
         <hr />
-        <span className="postDate">1 hour ago</span>
+        <span className="postDate">1 tund tagasi</span>
     </div>
-    <p className="postDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptatibus tempore sit quia eveniet aut, cum consectetur, cupiditate nemo, dolores porro? Veritatis non ea ipsam nobis repellat dolorum, esse atque.
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptatibus tempore sit quia eveniet aut, cum consectetur, cupiditate nemo, dolores porro? Veritatis non ea ipsam nobis repellat dolorum, esse atque.
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa voluptatibus tempore sit quia eveniet aut, cum consectetur, cupiditate nemo, dolores porro? Veritatis non ea ipsam nobis repellat dolorum, esse atque.
+    <p className="postDesc">Otselennud Rooma ja Liibüa pealinna Tripoli vahel taastusid pühapäeval pärast 10 aasta pikkust pausi, teatas Itaalia välisministeerium ning viitas ühistele jõupingutustele tugevdada sidemeid oma endise koloniaalvaldusega.Itaalia lipulaevast lennufirma ITA Airways teatas pühapäeval, et alustas esimest kommertslendu Tripoli Mitiga lennujaama ja Rooma Fiumicino vahel, lendude sagedusega kaks korda nädalas
     </p>
     </div>
   )

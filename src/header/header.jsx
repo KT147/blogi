@@ -4,10 +4,10 @@ function header() {
   return (
     <div className='header'>
         <div className="headerTitles">
-            <span className="headerTitleSm">React & Node</span>
-            <span className="headerTitleLg">Blog</span>
+            <span className="headerTitleSm">Kevini</span>
+            <span className="headerTitleLg">Lennundusblogi</span>
         </div>
-        <img className="headerImg" src="https://images.inc.com/uploaded_files/image/1920x1080/getty_509107562_2000133320009280346_351827.jpg" alt="" />
+        <img className="headerImg" src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Antonov_Design_Bureau_Antonov_An-225_Mriya_at_Leipzig_Halle_%28EDDP-LEJ%29.jpg" alt="" />
     </div>
   )
 }
