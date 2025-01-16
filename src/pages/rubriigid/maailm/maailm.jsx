@@ -10,11 +10,16 @@ function maailm() {
     <div>
         <Header/>
         <div className="rubriigitiitel">MAAILM</div>
+        <div className="posts">
         <Post1/>
         <Post2/>
-        <Post4/>
+        </div>
+       <div className="posts"> <Post4/>
         <Post6/>
         <Sidebar/>
+        </div>
+      
+        
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import Single from "./pages/single/Single";
 import TopBar from "./topbar/TopBar";
+import Huvitav from "./pages/huvitav/huvitav";
 import Write from "./pages/write/Write";
 import Settings from "./pages/settings/Settings";
 import Login from "./pages/login/Login";
@@ -27,7 +28,7 @@ import {
 
 
 function App() {
-  const user = true;
+  const user = false;
   return (
     <Router>
       <ScrollToTop />
@@ -36,8 +37,9 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/register" element={user ? <Home /> : <Register />} />
         <Route path="/login" element={user ? <Home /> : <Login/>} />
-        <Route path="/write" element={user ? <Write /> : <Register />} />
-        <Route path="/settings" element={user ? <Settings /> : <Register />} />
+        <Route path="/huvitav" element={<Huvitav/>}/>
+        <Route path="/write" element={<Write />} />
+        <Route path="/settings" element={user ? <Settings /> : <Register/> } />
         <Route path="/post/:postId" element={<Single />} />
         <Route path="/post1" element={<Post1/>}/>
         <Route path="/post2" element={<Post2/>}/>

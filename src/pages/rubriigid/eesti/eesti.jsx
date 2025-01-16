@@ -9,9 +9,11 @@ function eesti() {
     <div>
         <Header/>
         <div className="rubriigitiitel">EESTI</div>
+        <div className="posts">
         <KolmasPost/>
         <ViiesPost/>
         <Sidebar/>
+        </div>
     </div>
   )
 }

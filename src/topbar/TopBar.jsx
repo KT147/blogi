@@ -3,6 +3,7 @@ import { Link } from "react-router-dom"
 
 function TopBar() {
     const user = false;
+
   return (
     <div className='top'>
         <div className="topLeft">
@@ -20,7 +21,7 @@ function TopBar() {
                 <Link className="link" to= "/rubriigid">RUBRIIGID</Link>
                 </li>
                 <li className="topListItem">
-                <Link className="link" to= "/">KONTAKT</Link>
+                <Link className="link" to= "/huvitav">HUVITAV</Link>
                 </li>
                 <li className="topListItem">
                 <Link className="link" to= "/write">KIRJUTA</Link>
